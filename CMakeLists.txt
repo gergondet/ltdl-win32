@@ -14,7 +14,7 @@ if(WIN32)
   -DHAVE_STDLIB_H=1 -DHAVE_ERRNO_H=1 -DHAVE_MEMORY_H=1 -DHAVE_CTYPE_H=1
   -DHAVE_STRING_H=1 -DHAVE_STDIO_H=1 -DHAVE_ASSERT_H=1 -D__WINDOWS__
   -D__WIN32__")
-  install(FILES ltdl/ltdl.h DESTINATION ${CMAKE_INSTALL_PREFIX}/include)
+  install(FILES src/ltdl.h DESTINATION ${CMAKE_INSTALL_PREFIX}/include)
   install(TARGETS ltdl
                     RUNTIME DESTINATION bin
                     LIBRARY DESTINATION lib
