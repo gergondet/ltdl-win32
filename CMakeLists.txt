@@ -3,7 +3,7 @@ include(cmake/base.cmake)
 set(PROJECT_NAME ltdl)
 set(PROJECT_DESCRIPTION "A cmake friendly ltdl for Windows platform")
 set(PROJECT_URL "")
-project(${PROJECTdd_NAME} CXX)
+project(${PROJECT_NAME} CXX)
 setup_project(FALSE)
 
 if(WIN32)
