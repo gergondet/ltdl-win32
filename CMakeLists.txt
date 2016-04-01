@@ -3,6 +3,7 @@ include(cmake/base.cmake)
 set(PROJECT_NAME ltdl)
 set(PROJECT_DESCRIPTION "A cmake friendly ltdl for Windows platform")
 set(PROJECT_URL "")
+set(PROJECT_DEBUG_POSTFIX "_d")
 project(${PROJECT_NAME} C)
 setup_project(FALSE)
 
