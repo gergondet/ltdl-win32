@@ -142,7 +142,7 @@ LT_BEGIN_C_DECLS
 #endif
 
 
-#if defined(_MSC_VER) /* Visual Studio */
+#ifndef R_OK
 #  define R_OK 4
 #endif
 
